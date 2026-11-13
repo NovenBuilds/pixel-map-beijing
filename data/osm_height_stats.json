@@ -1,0 +1,34 @@
+{
+  "clip": {
+    "n": 1562,
+    "height_src": {
+      "levels": 97,
+      "default": 1339,
+      "height": 126
+    },
+    "kinds": {
+      "building": 1419,
+      "wall": 15,
+      "part": 128
+    },
+    "with_real_or_levels": 223,
+    "pct_with_vertical": 14.3
+  },
+  "pilot": {
+    "n": 1154,
+    "height_src": {
+      "levels": 48,
+      "default": 1031,
+      "height": 75
+    },
+    "kinds": {
+      "building": 1082,
+      "wall": 11,
+      "part": 61
+    },
+    "with_real_or_levels": 123,
+    "pct_with_vertical": 10.7
+  },
+  "level_height_m": 3.0,
+  "default_height_m": 6.0
+}

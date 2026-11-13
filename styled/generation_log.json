@@ -1,0 +1,87 @@
+{
+  "created": "2026-11-13 02:15–02:20 Asia/Shanghai",
+  "style_refs_common": [
+    "/workspace/refs/isometric-nyc-assets/repo-style/style_a.png",
+    "/workspace/refs/isometric-nyc-assets/cdn/level8_87_84_near_seed.png"
+  ],
+  "whitebox_inputs": {
+    "donghuamen": "/workspace/beijing-pilot/renders_v2/donghuamen.png",
+    "nanchizi": "/workspace/beijing-pilot/renders_v2/nanchizi.png",
+    "wangfujing_north": "/workspace/beijing-pilot/renders_v2/wangfujing-north.png",
+    "wangfujing_south": "/workspace/beijing-pilot/renders_v2/wangfujing-south.png",
+    "plan": "/workspace/beijing-pilot/renders_v2/00_plan_colored.png"
+  },
+  "height_calibration": "/workspace/beijing-pilot/data/height_calibration.json",
+  "attempts": [
+    {
+      "view": "donghuamen",
+      "ver": "v1",
+      "file": "/workspace/beijing-pilot/styled/donghuamen_v1.jpg",
+      "note": "Strong style; hutongs a bit sparse"
+    },
+    {
+      "view": "donghuamen",
+      "ver": "v2",
+      "file": "/workspace/beijing-pilot/styled/donghuamen_v2.jpg",
+      "note": "Denser hutongs but flatter map-like finish; long yellow roof on wall"
+    },
+    {
+      "view": "donghuamen",
+      "ver": "v3",
+      "file": "/workspace/beijing-pilot/styled/donghuamen_v3.jpg",
+      "best": true,
+      "note": "Best: v1 richness + denser hutongs, gray wall walkway"
+    },
+    {
+      "view": "nanchizi",
+      "ver": "v1",
+      "file": "/workspace/beijing-pilot/styled/nanchizi_v1.jpg",
+      "note": "Beautiful but invented a centered golden hall"
+    },
+    {
+      "view": "nanchizi",
+      "ver": "v2",
+      "file": "/workspace/beijing-pilot/styled/nanchizi_v2.jpg",
+      "best": true,
+      "note": "Best layout fidelity: mixed courtyards, gold halls at edge"
+    },
+    {
+      "view": "wangfujing_south",
+      "ver": "v1",
+      "file": "/workspace/beijing-pilot/styled/wangfujing_south_v1.jpg",
+      "note": "Style good, layout drifted to a generic US intersection"
+    },
+    {
+      "view": "wangfujing_south",
+      "ver": "v2",
+      "file": "/workspace/beijing-pilot/styled/wangfujing_south_v2.jpg",
+      "note": "Layout fixed (Chang'an + slab + curved glass) but yellow NYC taxis"
+    },
+    {
+      "view": "wangfujing_south",
+      "ver": "v3",
+      "file": "/workspace/beijing-pilot/styled/wangfujing_south_v3.jpg",
+      "best": true,
+      "note": "Best: v2 layout, taxis removed"
+    },
+    {
+      "view": "wangfujing_north",
+      "ver": "v1",
+      "file": "/workspace/beijing-pilot/styled/wangfujing_north_v1.jpg",
+      "note": "Intimate street; church too small"
+    },
+    {
+      "view": "wangfujing_north",
+      "ver": "v2",
+      "file": "/workspace/beijing-pilot/styled/wangfujing_north_v2.jpg",
+      "best": true,
+      "note": "Best overall: mall mass, pedestrian street, hutong edges, larger church (church still a bit European-cathedral)"
+    }
+  ],
+  "best_for_user": {
+    "donghuamen": "/workspace/beijing-pilot/styled/best_donghuamen.jpg",
+    "nanchizi": "/workspace/beijing-pilot/styled/best_nanchizi.jpg",
+    "wangfujing_south": "/workspace/beijing-pilot/styled/best_wangfujing_south.jpg",
+    "wangfujing_north": "/workspace/beijing-pilot/styled/best_wangfujing_north.jpg"
+  }
+}

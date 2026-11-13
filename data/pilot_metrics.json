@@ -1,0 +1,35 @@
+{
+  "name": "beijing-pilot-forbidden-city-to-wangfujing",
+  "west": 116.3948,
+  "south": 39.9062,
+  "east": 116.4078,
+  "north": 39.918,
+  "width_m_geod": 1111.5,
+  "height_m_geod": 1310.2,
+  "area_m2_rect": 1456330.1,
+  "camera": {
+    "azimuth_deg": -15.0,
+    "elevation_deg": -45.0,
+    "view_height_m": 300.0,
+    "render_px": 1024,
+    "quadrant_px": 512
+  },
+  "quadrant_512_ground_m": {
+    "along_rotated_x": 150.0,
+    "along_rotated_y": 212.13203435596427,
+    "note": "screen 150 m square; ground Y stretched by 1/sin(|elev|)"
+  },
+  "unique_512_quadrants_estimate": {
+    "rotated_range_m": [
+      1412.8,
+      1553.2
+    ],
+    "cols_rows_float": [
+      9.42,
+      7.32
+    ],
+    "ceil_product": 80,
+    "with_80m_facade_lean_ceil": 80,
+    "extended_north_39_92260_ceil": 110
+  }
+}

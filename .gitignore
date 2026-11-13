@@ -1,0 +1,30 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+.env
+.cache/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Generated map tiles, mosaics, Deep Zoom pyramids, staging, and process backups.
+# Keep tile grid config (grid.json, grid_axis.json). Full tiles will be published
+# later via GitHub Releases.
+/tiles/styled/
+/tiles/mosaic/
+/tiles/whiteboxes/
+/tiles/refs/
+/tiles/logs/
+/tiles/staging/
+/tiles/grid_overlay.jpg
+/tiles/**/pre_*/
+/viewer/beijing-pilot_files/
+/viewer/beijing-pilot.dzi

@@ -1,0 +1,418 @@
+{
+  "notes": "Control-building heights for the Forbidden City–Wangfujing pilot whitebox. Used as generation input, not a survey.",
+  "by_osm_way": {
+    "33459001": {
+      "height_m": 77.0,
+      "name": "北京饭店（东楼/A座）",
+      "source": "SkyscraperPage lists East Building 77.1 m, 20 floors, 1974; SKYDB 77 m, 20 floors. Wikipedia (zh, 北京饭店) confirms A座 地上20层. Assigned to named OSM way 33459001.",
+      "evidence": [
+        "https://skyscraperpage.com/b20688/beijing/beijing-hotel",
+        "https://www.skydb.net/building/189685792/beijing-hotel-east-wing/",
+        "https://zh.wikipedia.org/wiki/北京飯店"
+      ]
+    },
+    "156146468": {
+      "height_m": 9.9,
+      "name": "东南城墙",
+      "source": "故宫博物院：城墙从地面到顶部高9.90 m。OSM 原标签 10 m，改为院方数据。",
+      "evidence": [
+        "https://www.dpm.org.cn/explore/building/236441.html"
+      ]
+    },
+    "156151148": {
+      "height_m": 9.9,
+      "name": "城墙11",
+      "source": "同故宫博物院城垣 9.90 m",
+      "evidence": [
+        "https://www.dpm.org.cn/explore/building/236441.html"
+      ]
+    },
+    "156151306": {
+      "height_m": 9.9,
+      "name": "城墙12",
+      "source": "同故宫博物院城垣 9.90 m",
+      "evidence": [
+        "https://www.dpm.org.cn/explore/building/236441.html"
+      ]
+    },
+    "156149069": {
+      "height_m": 9.9,
+      "name": "城墙8",
+      "source": "同故宫博物院城垣 9.90 m",
+      "evidence": [
+        "https://www.dpm.org.cn/explore/building/236441.html"
+      ]
+    },
+    "156148328": {
+      "height_m": 9.9,
+      "name": "城墙5",
+      "source": "同故宫博物院城垣 9.90 m",
+      "evidence": [
+        "https://www.dpm.org.cn/explore/building/236441.html"
+      ]
+    },
+    "156146621": {
+      "height_m": 9.9,
+      "name": "东北城墙",
+      "source": "同故宫博物院城垣 9.90 m",
+      "evidence": [
+        "https://www.dpm.org.cn/explore/building/236441.html"
+      ]
+    },
+    "40343947": {
+      "height_m": 23.0,
+      "name": "东华门（城台+城楼通高，估计）",
+      "source": "故宫博物院：东华门城台与两侧城墙同高；城墙顶部 9.90 m；城台上为黄琉璃重檐庑殿顶城楼（面阔五间）。未找到院方公布的通高，按城台 9.90 m 加典型重檐城楼估计整体约 23 m。",
+      "evidence": [
+        "https://www.dpm.org.cn/explore/building/236502.html",
+        "https://www.dpm.org.cn/explore/building/236441.html"
+      ],
+      "uncertain": true
+    },
+    "40478517": {
+      "height_m": 15.0,
+      "name": "銮驾库",
+      "source": "OSM height=15",
+      "evidence": [
+        "OSM way 40478517"
+      ]
+    },
+    "684772274": {
+      "height_m": 12.0,
+      "name": "神库",
+      "source": "OSM height=12",
+      "evidence": [
+        "OSM way 684772274"
+      ]
+    },
+    "457743832": {
+      "height_m": 50.0,
+      "name": "华尔道夫酒店",
+      "source": "设计报道写明 50 m 高主楼；Robb Report / Agoda：12 层铜塔。",
+      "evidence": [
+        "https://www.021bolang.com/hotel/news/show-721.html",
+        "https://www.agoda.com/zh-cn/waldorf-astoria-beijing/hotel/beijing-cn.html"
+      ]
+    },
+    "233692527": {
+      "height_m": 38.0,
+      "name": "王府井喜悦购物中心",
+      "source": "OSM building:levels=9，按商场层高约 4.2 m 计 37.8 m，取 38 m。",
+      "evidence": [
+        "OSM way 233692527"
+      ],
+      "uncertain": true
+    },
+    "216729654": {
+      "height_m": 28.0,
+      "name": "北京apm",
+      "source": "OSM building:levels=6，商场层高按 4.7 m 计约 28 m。",
+      "evidence": [
+        "OSM way 216729654"
+      ],
+      "uncertain": true
+    },
+    "476128760": {
+      "height_m": 28.0,
+      "name": "王府中环",
+      "source": "OSM building:levels=5，高端商业层高按 5.5 m 计约 27.5 m，取 28 m。",
+      "evidence": [
+        "OSM way 476128760"
+      ],
+      "uncertain": true
+    },
+    "331760888": {
+      "height_m": 46.0,
+      "name": "工美大厦",
+      "source": "OSM building:levels=12，按 3.8 m 计约 45.6 m。",
+      "evidence": [
+        "OSM way 331760888"
+      ],
+      "uncertain": true
+    },
+    "146633673": {
+      "height_m": 43.0,
+      "name": "王府井书店",
+      "source": "OSM building:levels=12，按 3.6 m 计约 43 m。",
+      "evidence": [
+        "OSM way 146633673"
+      ],
+      "uncertain": true
+    },
+    "368736558": {
+      "height_m": 33.0,
+      "name": "北京王府井希尔顿酒店",
+      "source": "OSM building:levels=9，按酒店 3.7 m 计约 33 m。",
+      "evidence": [
+        "OSM way 368736558"
+      ],
+      "uncertain": true
+    },
+    "986528990": {
+      "height_m": 36.0,
+      "name": "澳门中心",
+      "source": "与希尔顿相邻的大体量商业，无层数标签；按邻近 9 层酒店和轮廓体量估计约 36 m。",
+      "evidence": [
+        "OSM way 986528990"
+      ],
+      "uncertain": true
+    },
+    "233692528": {
+      "height_m": 29.0,
+      "name": "北京万豪行政公寓",
+      "source": "OSM building:levels=8，按 3.6 m 计约 29 m。",
+      "evidence": [
+        "OSM way 233692528"
+      ],
+      "uncertain": true
+    },
+    "521024099": {
+      "height_m": 22.0,
+      "name": "裕华民族大厦",
+      "source": "OSM building:levels=6，按 3.6 m 计约 22 m。",
+      "evidence": [
+        "OSM way 521024099"
+      ],
+      "uncertain": true
+    },
+    "784165274": {
+      "height_m": 22.0,
+      "name": "北京穆斯林大厦",
+      "source": "OSM building:levels=6，按 3.6 m 计约 22 m。",
+      "evidence": [
+        "OSM way 784165274"
+      ],
+      "uncertain": true
+    },
+    "476128739": {
+      "height_m": 32.0,
+      "name": "王府井银泰in88",
+      "source": "无官方高度，按中型商场体量估计约 8 层、32 m。",
+      "evidence": [
+        "OSM way 476128739"
+      ],
+      "uncertain": true
+    },
+    "240529357": {
+      "height_m": 36.0,
+      "name": "天伦王朝酒店",
+      "source": "无官方高度/层数，按王府井北段酒店体量估计约 36 m。",
+      "evidence": [
+        "OSM way 240529357"
+      ],
+      "uncertain": true
+    },
+    "262848828": {
+      "height_m": 24.0,
+      "name": "王府井淘汇新天购物广场",
+      "source": "无层数，按中小型商场估计约 24 m。",
+      "evidence": [
+        "OSM way 262848828"
+      ],
+      "uncertain": true
+    },
+    "258088839": {
+      "height_m": 15.0,
+      "name": "皇史宬大殿",
+      "source": "无标签。明代皇家档案库，黄琉璃庑殿，体量大于普通四合院，按殿座类型估计檐高约 10 m、脊高约 15 m（此为通高）。",
+      "evidence": [
+        "OSM way 258088839 typological"
+      ],
+      "uncertain": true
+    },
+    "85902975": {
+      "height_m": 28.0,
+      "name": "王府井天主堂",
+      "source": "无官方通高，按教堂中厅/塔楼体量估计约 28 m。",
+      "evidence": [
+        "OSM way 85902975"
+      ],
+      "uncertain": true
+    },
+    "258088853": {
+      "height_m": 12.0,
+      "name": "大殿（南池子一带）",
+      "source": "无标签，按中型殿座估计 12 m。",
+      "evidence": [
+        "OSM way 258088853"
+      ],
+      "uncertain": true
+    },
+    "40628847": {
+      "height_m": 21.0,
+      "name": "畅音阁",
+      "source": "位于推荐盒北缘外，三层戏台常见记述约 20–21 m，取 21 m。",
+      "evidence": [
+        "typological / common published figure for 畅音阁"
+      ],
+      "uncertain": true
+    },
+    "638156366": {
+      "height_m": 12.0,
+      "name": "午门（墩台轮廓；楼体见 building:part）",
+      "source": "故宫博物院：午门墩台高 12.00 m。通高楼体由 OSM building:part 的 height 表达（主楼部分达 37–45 m）。",
+      "evidence": [
+        "https://www.dpm.org.cn/explore/building/236454.html"
+      ]
+    },
+    "638308745": {
+      "height_m": 23.8,
+      "name": "太和门",
+      "source": "通高 23.8 m（重檐歇山门座 + 汉白玉须弥座）。",
+      "evidence": [
+        "https://zh.wikipedia.org/wiki/太和門"
+      ]
+    },
+    "638449347": {
+      "height_m": 26.92,
+      "name": "太和殿（殿身，不含三层台基）",
+      "source": "故宫博物院：高 26.92 m，连同台基通高 35.05 m；三层汉白玉台基高 8.13 m。此为殿身高度。",
+      "evidence": [
+        "https://www.dpm.org.cn/explore/building/236465.html"
+      ]
+    },
+    "638473398": {
+      "height_m": 21.4,
+      "name": "保和殿（殿身，估计）",
+      "source": "常见记述保和殿高 29.50 m；三大殿共用 8.13 m 三层台基，29.50−8.13≈21.4 m 为殿身。低于太和殿殿身 26.92 m，符合实际层级。",
+      "evidence": [
+        "typological, shared terrace 8.13 m (DPM 太和殿)"
+      ],
+      "uncertain": true
+    },
+    "25097156": {
+      "height_m": 20.0,
+      "name": "中和殿",
+      "source": "OSM building:part way 638463064 height=20。方形小殿，低于太和殿、保和殿。",
+      "evidence": [
+        "OSM way 638463064 height=20"
+      ],
+      "uncertain": true
+    },
+    "638807674": {
+      "height_m": 16.0,
+      "name": "乾清门",
+      "source": "内廷正门，体量小于太和门，按门座类型估计约 16 m。",
+      "evidence": [
+        "typological"
+      ],
+      "uncertain": true
+    },
+    "638981317": {
+      "height_m": 20.0,
+      "name": "乾清宫",
+      "source": "OSM height=11 过低（疑为檐高或层数误标）。按内廷正殿黄琉璃重檐体量取脊高约 20 m。",
+      "evidence": [
+        "typological, overriding OSM 11"
+      ],
+      "uncertain": true
+    },
+    "638981229": {
+      "height_m": 16.0,
+      "name": "交泰殿",
+      "source": "后三宫中最小的方形殿，低于乾清宫、坤宁宫，估计约 16 m。",
+      "evidence": [
+        "typological"
+      ],
+      "uncertain": true
+    },
+    "639012193": {
+      "height_m": 18.0,
+      "name": "坤宁宫",
+      "source": "OSM height=9 过低。按内廷后殿体量取约 18 m。",
+      "evidence": [
+        "typological, overriding OSM 9"
+      ],
+      "uncertain": true
+    },
+    "638741722": {
+      "height_m": 31.0,
+      "name": "神武门（城台+城楼通高，估计）",
+      "source": "重檐庑殿顶、面阔五间城楼，形制低于午门、高于东华门。未找到院方通高，取 31 m。",
+      "evidence": [
+        "typological"
+      ],
+      "uncertain": true
+    },
+    "40343948": {
+      "height_m": 23.0,
+      "name": "西华门",
+      "source": "与东华门同为侧门，沿用东华门 23 m 估计。",
+      "evidence": [
+        "same typology as 东华门 way 40343947"
+      ],
+      "uncertain": true
+    },
+    "40795244": {
+      "height_m": 17.0,
+      "name": "钦安殿（御花园）",
+      "source": "御花园主殿，黄琉璃重檐，体量中等，估计约 17 m。",
+      "evidence": [
+        "typological"
+      ],
+      "uncertain": true
+    },
+    "42740554": {
+      "height_m": 27.5,
+      "name": "西北角楼",
+      "source": "故宫四角角楼通高 27.5 m（十字脊、三重檐）。按位置归到未命名 OSM way 42740554。",
+      "evidence": [
+        "https://www.visitbeijing.com.cn/article/4MjQEx8JhA1"
+      ]
+    },
+    "42740573": {
+      "height_m": 27.5,
+      "name": "东北角楼",
+      "source": "同角楼 27.5 m，归到 way 42740573。",
+      "evidence": [
+        "https://www.visitbeijing.com.cn/article/4MjQEx8JhA1"
+      ]
+    },
+    "468870457": {
+      "height_m": 27.5,
+      "name": "西南角楼（候选）",
+      "source": "角楼 27.5 m。way 468870457 距西南城角约 44 m，作为候选轮廓。",
+      "evidence": [
+        "https://www.visitbeijing.com.cn/article/4MjQEx8JhA1"
+      ],
+      "uncertain": true
+    },
+    "43512262": {
+      "height_m": 18.0,
+      "name": "武英殿",
+      "source": "外朝西路主殿，低于三大殿，估计约 18 m。",
+      "evidence": [
+        "typological"
+      ],
+      "uncertain": true
+    },
+    "43519304": {
+      "height_m": 18.0,
+      "name": "文华殿",
+      "source": "外朝东路主殿，与武英殿对称，估计约 18 m。",
+      "evidence": [
+        "typological"
+      ],
+      "uncertain": true
+    },
+    "26390235": {
+      "height_m": 17.0,
+      "name": "万春亭（景山）",
+      "source": "景山主峰亭，黄琉璃三重檐圆亭，不含山体，估计亭身约 17 m。",
+      "evidence": [
+        "typological"
+      ],
+      "uncertain": true
+    }
+  },
+  "typology_defaults": {
+    "hutong_1storey_eave_m": 4.2,
+    "hutong_1storey_ridge_m": 6.3,
+    "palace_hall_small_ridge_m": 12.0,
+    "palace_wall_m": 9.9,
+    "retail_m_per_floor": 4.2,
+    "office_m_per_floor": 3.7,
+    "hotel_m_per_floor": 3.7,
+    "default_m_per_floor": 3.5
+  }
+}

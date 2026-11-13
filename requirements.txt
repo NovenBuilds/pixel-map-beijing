@@ -1,0 +1,6 @@
+# Python 3. Pipeline scripts on the authoring machine used:
+#   Pillow 13.0.0, numpy 2.5.4, plus shapely and pyproj.
+Pillow>=11
+numpy>=2
+shapely
+pyproj

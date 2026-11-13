@@ -1,0 +1,11 @@
+{
+  "release": "2026-10-21.0",
+  "s3": "s3://overturemaps-us-west-2/release/2026-10-21.0/theme=buildings/",
+  "clip_buildings": 2444,
+  "pilot_centroid_buildings": 1461,
+  "pilot_with_height": 9,
+  "pilot_with_floors": 48,
+  "pilot_with_vertical": 56,
+  "clip_building_parts": 128,
+  "clip_parts_with_height": 109
+}

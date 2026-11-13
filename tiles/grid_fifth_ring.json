@@ -1,0 +1,172 @@
+{
+  "purpose": "Planning 1024-tile grid covering the interior of Beijing's 5th Ring Road (五环以内). Same origin and camera as the Forbidden City–Wangfujing pilot. This file must NOT be used to expand the current mosaic window to thousands of tiles.",
+  "do_not_expand_current_mosaic": true,
+  "crs": "WGS84 / UTM 50N origin at box SW",
+  "pilot_box_sw_origin": {
+    "lon": 116.3948,
+    "lat": 39.9062,
+    "epsg": 32650
+  },
+  "origin_rot": {
+    "minx": -40.0,
+    "maxy": 1302.7542106015187
+  },
+  "camera": {
+    "azimuth_deg": -15.0,
+    "elevation_deg": -45.0,
+    "view_height_meters": 300.0,
+    "viewport_px": 1024
+  },
+  "metres_per_pixel": 0.29296875,
+  "tile_1024": {
+    "px": 1024,
+    "rot_x_m": 300.0,
+    "rot_y_m": 424.26406871192853,
+    "rot_area_km2": 0.12727922061357855,
+    "index_rule": "C = floor((rot_x - origin_rot.minx) / rot_x_m); R = floor((origin_rot.maxy - rot_y) / rot_y_m); south and west are positive R / negative C from the original 5×4 pilot."
+  },
+  "fifth_ring": {
+    "name": "五环路",
+    "name:en": "5th Ring Road",
+    "ref": "S50",
+    "osm_relation": 295957,
+    "osm_source": "Overpass API, relation 295957 out geom, WGS84, ODbL 1.0",
+    "crs_note": "Coordinates are OSM WGS84 (EPSG:4326). Do not mix with GCJ-02 (Amap/Tencent) or BD-09.",
+    "wgs84_bbox": {
+      "west": 116.2017159,
+      "south": 39.7566041,
+      "east": 116.5438489,
+      "north": 40.0219738,
+      "width_km": 29.263088373206546,
+      "height_km": 29.464662846494466,
+      "axis_aligned_area_km2": 862.2270327637032,
+      "note": "Bounding box of the ring ROAD itself, larger than the interior area."
+    },
+    "extreme_points_wgs84": {
+      "west": {
+        "lon": 116.2017159,
+        "lat": 39.8768126
+      },
+      "east": {
+        "lon": 116.5438489,
+        "lat": 39.853057
+      },
+      "south": {
+        "lon": 116.3764301,
+        "lat": 39.7566041
+      },
+      "north": {
+        "lon": 116.3324838,
+        "lat": 40.0219738
+      }
+    },
+    "published_interior_area_km2": 667.0,
+    "published_length_km": 98.6,
+    "published_sources": [
+      {
+        "figure": "五环内面积 667 km²；五环路周长 98.6 km",
+        "url": "https://www.bfzh.com.cn/NewsDetail/5846236.html",
+        "note": "环路与环路之间面积/人口密度备忘，引用市统计口径常见数字"
+      },
+      {
+        "figure": "五环以内 667 km²",
+        "url": "https://datanews.caixin.com/interactive/2018/56ring/",
+        "note": "财新数据新闻 2018「五环以外」"
+      },
+      {
+        "figure": "五环路全长约 98 km，距市中心约 10 km（距离随方位变化）",
+        "url": "https://zh.wikipedia.org/wiki/北京五环路",
+        "note": "中文维基「北京五环路」"
+      }
+    ],
+    "computed_interior": {
+      "method": "Unary-union of OSM route centreline segments in UTM 50N, buffer to merge dual carriageways, take the largest interior hole, then buffer the hole back by the same distance to approximate the area inside the road.",
+      "chosen_buffer_m": 40.0,
+      "raw_hole_area_km2": 662.5623560253562,
+      "area_km2": 666.4974058652512,
+      "buffer_attempts": [
+        {
+          "buffer_m": 40.0,
+          "n_holes": 1,
+          "raw_hole_area_km2": 662.5623560253562,
+          "recovered_area_km2": 666.4974058652512
+        },
+        {
+          "buffer_m": 60.0,
+          "n_holes": 1,
+          "raw_hole_area_km2": 660.5986195481894,
+          "recovered_area_km2": 666.4973968301892
+        },
+        {
+          "buffer_m": 80.0,
+          "n_holes": 1,
+          "raw_hole_area_km2": 658.637405140602,
+          "recovered_area_km2": 666.4973782149401
+        },
+        {
+          "buffer_m": 100.0,
+          "n_holes": 1,
+          "raw_hole_area_km2": 656.6787127082932,
+          "recovered_area_km2": 666.4973499072403
+        },
+        {
+          "buffer_m": 120.0,
+          "n_holes": 1,
+          "raw_hole_area_km2": 654.7225423128104,
+          "recovered_area_km2": 666.4973119938261
+        }
+      ],
+      "note": "This is an OSM-geometry estimate, not an official cadastral area. It should be close to the commonly cited 667 km²."
+    }
+  },
+  "grid": {
+    "R_min": -30,
+    "R_max": 39,
+    "C_min": -56,
+    "C_max": 42,
+    "n_rows": 70,
+    "n_cols": 99,
+    "n_tiles_rectangular": 6930,
+    "rectangular_rot_area_km2": 882.0449988520993,
+    "n_tiles_intersecting_interior": 5405,
+    "intersecting_rot_area_km2": 687.9441874163921,
+    "ring_points_rot_aabb": {
+      "minx": -16838.133096825204,
+      "miny": -15622.293500432364,
+      "maxx": 12620.99226758034,
+      "maxy": 14024.18486750786
+    },
+    "rectangular_mosaic_wgs84_corners": [
+      {
+        "lon": 116.25385353200205,
+        "lat": 39.729752756612115
+      },
+      {
+        "lon": 116.58819561081945,
+        "lat": 39.800680368856426
+      },
+      {
+        "lon": 116.49652053636883,
+        "lat": 40.05878020520162
+      },
+      {
+        "lon": 116.16102502700363,
+        "lat": 39.987580332739995
+      }
+    ],
+    "note": "The rectangular R/C range is the axis-aligned envelope in rotated camera space of tiles that intersect the recovered 5th-ring interior. Because the camera is yawed -15° and the ring is not a rectangle, n_tiles_rectangular × tile area is larger than 667 km²; n_tiles_intersecting_interior is the tighter planning count. Do not pre-allocate or render this many tiles into the current mosaic window."
+  },
+  "current_mosaic_window": {
+    "R_min": -2,
+    "R_max": 3,
+    "C_min": -2,
+    "C_max": 4,
+    "n_tiles": 42,
+    "rot_area_km2": 5.345727265770299,
+    "note": "R=-2..3, C=-2..4 (6×7=42). Leave this window unchanged by this planning file."
+  },
+  "comparison_with_prior_estimate": {
+    "prior_rough_count": "~9000 tiles for 667 km²",
+    "prior_basis_note": "An earlier scoping used ~2.3 km² / 32 finished tiles, which understates the rotated 1024-tile area (each tile is 300 × 424.264 m = 0.1273 km²). 667 / 0.1273 ≈ 5240 tiles if tiles packed the interior with no slack; the intersecting count below is the geometry-based number, and the rectangular envelope is larger because of the 15° yaw and the ring's rounded-rectangle shape."
+  }
+}

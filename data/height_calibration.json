@@ -1,5 +1,5 @@
 {
-  "notes": "Control-building heights for the Forbidden City–Wangfujing pilot whitebox. Used as generation input, not a survey.",
+  "notes": "Control-building heights for the Forbidden City–Wangfujing pilot whitebox. Used as generation input, not a survey. Also includes Tiananmen Square / Qianmen axis heights (literature / heritage-bureau), with uncertain flags where sources disagree or part mapping is typological.",
   "by_osm_way": {
     "33459001": {
       "height_m": 77.0,
@@ -403,6 +403,282 @@
         "typological"
       ],
       "uncertain": true
+    },
+    "637830242": {
+      "height_m": 34.7,
+      "name": "天安门（城楼主屋面，通高）",
+      "source": "故宫博物院文章《紫禁城的图像学意义》：天安门高 34.7 米。人民网/中国政府网转述新华社：1970 年重建后实际通高 34.7 米。",
+      "evidence": [
+        "https://www.dpm.org.cn/Uploads/File/pdf/21/37/8d/21378dd0b3131359d9cafc62a7a3369f.pdf",
+        "http://dangshi.people.com.cn/n/2013/0514/c85037-21479598.html",
+        "http://www.gov.cn/test/2009-09/24/content_1425400_5.htm"
+      ]
+    },
+    "637950096": {
+      "height_m": 34.37,
+      "name": "端门（城楼主屋面，通高）",
+      "source": "故宫博物院《紫禁城的图像学意义》：端门高 34.37 米（同文列天安门 34.7 米、午门 35.6 米）。",
+      "evidence": [
+        "https://www.dpm.org.cn/Uploads/File/pdf/21/37/8d/21378dd0b3131359d9cafc62a7a3369f.pdf"
+      ]
+    },
+    "637834383": {
+      "height_m": 37.94,
+      "name": "人民英雄纪念碑（碑身通高）",
+      "source": "北京市人民政府天安门地区管理委员会：通高 37.94 米。国家文物局、全国人大网同数。OSM 该 way 已有 height=37.94。",
+      "evidence": [
+        "https://tamgw.beijing.gov.cn/diqufuwu/zjtam/201912/t20191219_1321036.html",
+        "http://www.ncha.gov.cn/art/2019/9/25/art_2247_156814.html"
+      ]
+    },
+    "637908759": {
+      "height_m": 33.6,
+      "name": "毛主席纪念堂（上层体量，按通高收）",
+      "source": "同纪念堂通高 33.6 m；OSM height=35 略高，改为官方通高。",
+      "evidence": [
+        "https://www.chinanews.com.cn/cul/2013/11-24/5539815.shtml"
+      ]
+    },
+    "637908757": {
+      "height_m": 33.6,
+      "name": "毛主席纪念堂（檐口体量，按通高收）",
+      "source": "同纪念堂通高 33.6 m；OSM height=35 略高，改为官方通高。",
+      "evidence": [
+        "https://www.chinanews.com.cn/cul/2013/11-24/5539815.shtml"
+      ]
+    },
+    "637908758": {
+      "height_m": 33.6,
+      "name": "毛主席纪念堂（主体通高）",
+      "source": "中新网（设计过程记述）与东城区政府介绍：主体建筑通高 33.6 米，平面 105.5×105.5 米。",
+      "evidence": [
+        "https://www.chinanews.com.cn/cul/2013/11-24/5539815.shtml",
+        "https://www.bjdch.gov.cn/mldc/bglj/hswh/202304/t20230408_2993346.html"
+      ]
+    },
+    "25109960": {
+      "height_m": 43.65,
+      "name": "正阳门城楼（城台+城楼通高）",
+      "source": "北京市文物局（北京中轴线遗产保护中心·正阳门）：城楼通高 43.65 米。2005 年大修前实测，自地平至正脊上皮。",
+      "evidence": [
+        "https://wwj.beijing.gov.cn/bjww/362771/362772/545898/index.html",
+        "https://xinwen.bjd.com.cn/content/s66e164e9e4b0c25b287b4ad0.html"
+      ]
+    },
+    "439956436": {
+      "height_m": 35.37,
+      "name": "正阳门箭楼（通高）",
+      "source": "北京市文物局（北京中轴线遗产保护中心·正阳门）：箭楼通高 35.37 米。",
+      "evidence": [
+        "https://wwj.beijing.gov.cn/bjww/362771/362772/545898/index.html"
+      ]
+    },
+    "637929779": {
+      "height_m": 46.5,
+      "name": "人民大会堂（最高部位，北/中段）",
+      "source": "同大会堂最高部位 46.5 m；OSM height=45，改为公开通高。",
+      "evidence": [
+        "https://s.visitbeijing.com.cn/attraction/101940"
+      ]
+    },
+    "637929804": {
+      "height_m": 46.5,
+      "name": "人民大会堂（最高部位）",
+      "source": "中国政府网文化专题、visitbeijing 与常见建筑记述：南北长 336 米、东西宽 206 米，高 46.5 米（最高部位）。",
+      "evidence": [
+        "http://www.ncha.gov.cn/art/2017/11/6/art_2035_144839.html",
+        "https://s.visitbeijing.com.cn/attraction/101940"
+      ]
+    },
+    "637929787": {
+      "height_m": 46.5,
+      "name": "人民大会堂（最高部位，南/中段）",
+      "source": "同大会堂最高部位 46.5 m；OSM height=45，改为公开通高。",
+      "evidence": [
+        "https://s.visitbeijing.com.cn/attraction/101940"
+      ]
+    },
+    "637939210": {
+      "height_m": 42.5,
+      "name": "中国国家博物馆（最高处 42.5 m）",
+      "source": "中国国家博物馆简介（官网存档）及光明日报 2011-03-29：新馆主体外观高度约 26 / 34 / 42 m 三层，最高处 42.5 m。该 OSM part 原 height 为 43–48，已按官方最高处封顶为 42.5。",
+      "evidence": [
+        "https://web.archive.org/web/20201104104627/http://www.chnmuseum.cn/gbgk/gbjj/",
+        "https://epaper.gmw.cn/gmrb/html/2011-03/29/nw.D110000gmrb_20110329_1-09.htm"
+      ],
+      "uncertain": true
+    },
+    "637939209": {
+      "height_m": 42.5,
+      "name": "中国国家博物馆（最高处 42.5 m）",
+      "source": "中国国家博物馆简介（官网存档）及光明日报 2011-03-29：新馆主体外观高度约 26 / 34 / 42 m 三层，最高处 42.5 m。该 OSM part 原 height 为 43–48，已按官方最高处封顶为 42.5。",
+      "evidence": [
+        "https://web.archive.org/web/20201104104627/http://www.chnmuseum.cn/gbgk/gbjj/",
+        "https://epaper.gmw.cn/gmrb/html/2011-03/29/nw.D110000gmrb_20110329_1-09.htm"
+      ],
+      "uncertain": true
+    },
+    "637939216": {
+      "height_m": 42.5,
+      "name": "中国国家博物馆（高层体量，按最高处收）",
+      "source": "同国博最高处 42.5 m；OSM height=46，改为公开数。",
+      "evidence": [
+        "https://epaper.gmw.cn/gmrb/html/2011-03/29/nw.D110000gmrb_20110329_1-09.htm"
+      ]
+    },
+    "637939214": {
+      "height_m": 42.5,
+      "name": "中国国家博物馆（最高处 42.5 m）",
+      "source": "中国国家博物馆简介（官网存档）及光明日报 2011-03-29：新馆主体外观高度约 26 / 34 / 42 m 三层，最高处 42.5 m。该 OSM part 原 height 为 43–48，已按官方最高处封顶为 42.5。",
+      "evidence": [
+        "https://web.archive.org/web/20201104104627/http://www.chnmuseum.cn/gbgk/gbjj/",
+        "https://epaper.gmw.cn/gmrb/html/2011-03/29/nw.D110000gmrb_20110329_1-09.htm"
+      ],
+      "uncertain": true
+    },
+    "637939169": {
+      "height_m": 42.5,
+      "name": "中国国家博物馆（最高处 42.5 m）",
+      "source": "中国国家博物馆简介（官网存档）及光明日报 2011-03-29：新馆主体外观高度约 26 / 34 / 42 m 三层，最高处 42.5 m。该 OSM part 原 height 为 43–48，已按官方最高处封顶为 42.5。",
+      "evidence": [
+        "https://web.archive.org/web/20201104104627/http://www.chnmuseum.cn/gbgk/gbjj/",
+        "https://epaper.gmw.cn/gmrb/html/2011-03/29/nw.D110000gmrb_20110329_1-09.htm"
+      ],
+      "uncertain": true
+    },
+    "637939178": {
+      "height_m": 42.5,
+      "name": "中国国家博物馆（最高处 42.5 m）",
+      "source": "中国国家博物馆简介（官网存档）及光明日报 2011-03-29：新馆主体外观高度约 26 / 34 / 42 m 三层，最高处 42.5 m。该 OSM part 原 height 为 43–48，已按官方最高处封顶为 42.5。",
+      "evidence": [
+        "https://web.archive.org/web/20201104104627/http://www.chnmuseum.cn/gbgk/gbjj/",
+        "https://epaper.gmw.cn/gmrb/html/2011-03/29/nw.D110000gmrb_20110329_1-09.htm"
+      ],
+      "uncertain": true
+    },
+    "637939208": {
+      "height_m": 42.5,
+      "name": "中国国家博物馆（最高处 42.5 m）",
+      "source": "中国国家博物馆简介（官网存档）及光明日报 2011-03-29：新馆主体外观高度约 26 / 34 / 42 m 三层，最高处 42.5 m。该 OSM part 原 height 为 43–48，已按官方最高处封顶为 42.5。",
+      "evidence": [
+        "https://web.archive.org/web/20201104104627/http://www.chnmuseum.cn/gbgk/gbjj/",
+        "https://epaper.gmw.cn/gmrb/html/2011-03/29/nw.D110000gmrb_20110329_1-09.htm"
+      ],
+      "uncertain": true
+    },
+    "637939215": {
+      "height_m": 42.5,
+      "name": "中国国家博物馆（高层体量，按最高处 42.5 m 收）",
+      "source": "同国博最高处 42.5 m（《光明日报》2011-03-29）。",
+      "evidence": [
+        "https://epaper.gmw.cn/gmrb/html/2011-03/29/nw.D110000gmrb_20110329_1-09.htm"
+      ]
+    },
+    "637939207": {
+      "height_m": 42.5,
+      "name": "中国国家博物馆（主体最高处）",
+      "source": "《光明日报》2011年3月29日《新国博“新”在哪儿（上）》：建筑主体外观形成 26、34、42 米左右三个层次，最高处达到 42.5 米。",
+      "evidence": [
+        "https://epaper.gmw.cn/gmrb/html/2011-03/29/nw.D110000gmrb_20110329_1-09.htm"
+      ]
+    },
+    "8847697": {
+      "height_m": 34.7,
+      "name": "天安门（multipolygon，通高 34.7 m）",
+      "source": "故宫博物院文章《紫禁城的图像学意义》：天安门高 34.7 米。人民网/中国政府网转述新华社：1970 年重建后实际通高 34.7 米。",
+      "evidence": [
+        "https://www.dpm.org.cn/Uploads/File/pdf/21/37/8d/21378dd0b3131359d9cafc62a7a3369f.pdf",
+        "http://dangshi.people.com.cn/n/2013/0514/c85037-21479598.html",
+        "http://www.gov.cn/test/2009-09/24/content_1425400_5.htm"
+      ]
+    },
+    "8847698": {
+      "height_m": 34.7,
+      "name": "天安门（building relation，通高 34.7 m）",
+      "source": "故宫博物院文章《紫禁城的图像学意义》：天安门高 34.7 米。人民网/中国政府网转述新华社：1970 年重建后实际通高 34.7 米。",
+      "evidence": [
+        "https://www.dpm.org.cn/Uploads/File/pdf/21/37/8d/21378dd0b3131359d9cafc62a7a3369f.pdf",
+        "http://dangshi.people.com.cn/n/2013/0514/c85037-21479598.html",
+        "http://www.gov.cn/test/2009-09/24/content_1425400_5.htm"
+      ]
+    },
+    "8848564": {
+      "height_m": 34.37,
+      "name": "端门（building relation，通高 34.37 m）",
+      "source": "故宫博物院《紫禁城的图像学意义》：端门高 34.37 米（同文列天安门 34.7 米、午门 35.6 米）。",
+      "evidence": [
+        "https://www.dpm.org.cn/Uploads/File/pdf/21/37/8d/21378dd0b3131359d9cafc62a7a3369f.pdf"
+      ]
+    },
+    "8847722": {
+      "height_m": 37.94,
+      "name": "人民英雄纪念碑（multipolygon）",
+      "source": "北京市人民政府天安门地区管理委员会：通高 37.94 米。国家文物局、全国人大网同数。OSM 该 way 已有 height=37.94。",
+      "evidence": [
+        "https://tamgw.beijing.gov.cn/diqufuwu/zjtam/201912/t20191219_1321036.html",
+        "http://www.ncha.gov.cn/art/2019/9/25/art_2247_156814.html"
+      ]
+    },
+    "8847723": {
+      "height_m": 37.94,
+      "name": "人民英雄纪念碑（building relation）",
+      "source": "北京市人民政府天安门地区管理委员会：通高 37.94 米。国家文物局、全国人大网同数。OSM 该 way 已有 height=37.94。",
+      "evidence": [
+        "https://tamgw.beijing.gov.cn/diqufuwu/zjtam/201912/t20191219_1321036.html",
+        "http://www.ncha.gov.cn/art/2019/9/25/art_2247_156814.html"
+      ]
+    },
+    "8848142": {
+      "height_m": 33.6,
+      "name": "毛主席纪念堂（multipolygon，通高 33.6 m）",
+      "source": "中新网（设计过程记述）与东城区政府介绍：主体建筑通高 33.6 米，平面 105.5×105.5 米。",
+      "evidence": [
+        "https://www.chinanews.com.cn/cul/2013/11-24/5539815.shtml",
+        "https://www.bjdch.gov.cn/mldc/bglj/hswh/202304/t20230408_2993346.html"
+      ]
+    },
+    "8848144": {
+      "height_m": 33.6,
+      "name": "毛主席纪念堂（building relation，通高 33.6 m）",
+      "source": "中新网（设计过程记述）与东城区政府介绍：主体建筑通高 33.6 米，平面 105.5×105.5 米。",
+      "evidence": [
+        "https://www.chinanews.com.cn/cul/2013/11-24/5539815.shtml",
+        "https://www.bjdch.gov.cn/mldc/bglj/hswh/202304/t20230408_2993346.html"
+      ]
+    },
+    "8848388": {
+      "height_m": 46.5,
+      "name": "人民大会堂（multipolygon，最高 46.5 m）",
+      "source": "中国政府网文化专题、visitbeijing 与常见建筑记述：南北长 336 米、东西宽 206 米，高 46.5 米（最高部位）。",
+      "evidence": [
+        "http://www.ncha.gov.cn/art/2017/11/6/art_2035_144839.html",
+        "https://s.visitbeijing.com.cn/attraction/101940"
+      ]
+    },
+    "8848390": {
+      "height_m": 46.5,
+      "name": "人民大会堂（building relation，最高 46.5 m）",
+      "source": "中国政府网文化专题、visitbeijing 与常见建筑记述：南北长 336 米、东西宽 206 米，高 46.5 米（最高部位）。",
+      "evidence": [
+        "http://www.ncha.gov.cn/art/2017/11/6/art_2035_144839.html",
+        "https://s.visitbeijing.com.cn/attraction/101940"
+      ]
+    },
+    "8607825": {
+      "height_m": 42.5,
+      "name": "中国国家博物馆（multipolygon，最高 42.5 m）",
+      "source": "《光明日报》2011年3月29日《新国博“新”在哪儿（上）》：建筑主体外观形成 26、34、42 米左右三个层次，最高处达到 42.5 米。",
+      "evidence": [
+        "https://epaper.gmw.cn/gmrb/html/2011-03/29/nw.D110000gmrb_20110329_1-09.htm"
+      ]
+    },
+    "8848468": {
+      "height_m": 42.5,
+      "name": "中国国家博物馆（building relation，最高 42.5 m）",
+      "source": "《光明日报》2011年3月29日《新国博“新”在哪儿（上）》：建筑主体外观形成 26、34、42 米左右三个层次，最高处达到 42.5 米。",
+      "evidence": [
+        "https://epaper.gmw.cn/gmrb/html/2011-03/29/nw.D110000gmrb_20110329_1-09.htm"
+      ]
     }
   },
   "typology_defaults": {

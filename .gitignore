@@ -28,3 +28,10 @@ venv/
 /tiles/**/pre_*/
 /viewer/beijing-pilot_files/
 /viewer/beijing-pilot.dzi
+
+# Local process backups of grid config
+/tiles/*.bak*
+*.bak_*
+
+# Release packaging output, if ever written inside the repo
+/release-artifacts/

@@ -7,12 +7,12 @@
 ## 仓库里有什么
 
 - 源码：白盒渲染、格网、中轴线外扩、色板统一、拼接与 Deep Zoom 导出等 Python 脚本
-- 配置与输入数据：`data/`（试点范围、高度校准、OSM / Overture 提取）、`tiles/grid.json` 与 `tiles/grid_axis.json`
+- 配置与输入数据：`data/`（试点范围、高度校准、OSM / Overture 提取）、`tiles/grid.json`、`tiles/grid_axis.json` 与 `tiles/grid_fifth_ring.json`
 - 文档：`REPORT.md`（试点过程记录）
 - 示例：`examples/overview_2560.jpg`（缩小总览）、`styled/`（早期风格样张）、`renders/` 与 `renders_v2/`（白盒正交样图）
 - 观看器页面：`viewer/index.html`
 
-生成结果默认不进 Git：地图瓦片、拼接总览、白盒、DZI 金字塔、缓存和过程备份已写入 `.gitignore`。完整地图数据稍后通过 GitHub Releases 发布。
+生成结果默认不进 Git：地图瓦片、拼接总览、白盒、DZI 金字塔、缓存和过程备份已写入 `.gitignore`。完整地图数据通过 [GitHub Releases](https://github.com/NovenBuilds/pixel-map-beijing/releases) 分阶段发布。后续扩展会发布新的 Release，不会覆盖旧版本。
 
 ## 数据说明
 
@@ -25,15 +25,46 @@
 
 ## 本地运行
 
-依赖见 `requirements.txt`（Python 3，主要是 Pillow、numpy、shapely、pyproj）。
+只需 Python 3 标准库即可启动观看器。生成新瓦片才需要 `requirements.txt` 里的依赖（Pillow、numpy、shapely、pyproj）。
 
-本地若已有生成好的瓦片（默认在 `tiles/styled/` 与 `tiles/mosaic/`，被 git 忽略）：
+仓库本身不包含可缩放的 DZI 瓦片。请先克隆源码，再下载对应版本的 GitHub Release 数据包，解压到仓库根目录后启动本地 HTTP 服务。
+
+### 1. 克隆仓库
+
+```bash
+git clone https://github.com/NovenBuilds/pixel-map-beijing.git
+cd pixel-map-beijing
+```
+
+### 2. 下载并解压 Release 数据包
+
+在仓库根目录下载预览版 `v0.1.0-preview` 的附件（也可换成更新的 Release，但不要覆盖已保存的旧包）：
+
+```bash
+# 需要已安装 GitHub CLI
+gh release download v0.1.0-preview --repo NovenBuilds/pixel-map-beijing
+```
+
+也可以在浏览器打开 [Releases 页面](https://github.com/NovenBuilds/pixel-map-beijing/releases) ，下载 `beijing-pilot-dzi-v0.1.0-preview.zip` 和 `SHA256SUMS.txt`。
+
+校验并解压到仓库根目录（会在 `viewer/` 下写入 `beijing-pilot.dzi` 与 `beijing-pilot_files/`）：
+
+```bash
+sha256sum -c SHA256SUMS.txt
+unzip beijing-pilot-dzi-v0.1.0-preview.zip
+```
+
+版本号、对应 Git 提交、覆盖范围、文件体积和 SHA256 写在该 [Release 说明](https://github.com/NovenBuilds/pixel-map-beijing/releases/tag/v0.1.0-preview) 里，也可对照 `SHA256SUMS.txt`。
+
+### 3. 启动观看器
 
 ```bash
 cd viewer
 python3 -m http.server 8765
 ```
 
-然后打开 http://127.0.0.1:8765/ 。不要用 `file://` 直接打开，浏览器会拦截瓦片请求。
+然后在浏览器打开 http://127.0.0.1:8765/ 。不要用 `file://` 直接打开 HTML，浏览器会拦截瓦片请求。
 
-没有本地瓦片时，可先看 `examples/overview_2560.jpg`。
+本预览包覆盖当前直播拼接窗：行 R=−2…3、列 C=−2…4（7168×6144 像素），范围从景山到故宫、王府井，并已并入天安门。广场西侧与前门一带仍在草稿中，未进入本包。
+
+没有下载瓦片时，可先看 `examples/overview_2560.jpg`。

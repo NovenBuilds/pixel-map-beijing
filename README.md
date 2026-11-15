@@ -1,8 +1,16 @@
 # pixel-map-beijing
 
-北京超大型等距像素地图。风格对标 [isometric.nyc](https://isometric.nyc/)，定位是积木城生成艺术，不是带搜索与标注的地图工具。当前仓库是故宫到王府井（并沿中轴线外扩中）的试点源码。
+北京超大型等距像素地图。风格对标 [isometric.nyc](https://isometric.nyc/)，定位是积木城生成艺术，不是带搜索与标注的地图工具。当前仓库是故宫到王府井、并沿中轴线外扩到景山与天安门广场的试点源码。
+
+**这个项目目前已暂停**（2026-11-15）。已经做完、能看的部分留在 Git 和 Releases 里，以后有条件再继续。旧版本不会被覆盖。
 
 许可证为 MIT（见 `LICENSE`）。
+
+## 项目起因，以及为什么先停在这里
+
+看到 [isometric.nyc](https://isometric.nyc/) 的手绘感等距像素画，觉得喜欢，就想搞一套北京的。当时周用量快过期了，不用白不用，于是开始拼命往前推。推着推着才发现：这座城太大了，token 烧不起。qiong。
+
+所以先停在这里。不是不想做，是现在烧不起。已有的源码、配置和预览包都还在，以后再说。
 
 ## 仓库里有什么
 
@@ -29,6 +37,8 @@
 
 仓库本身不包含可缩放的 DZI 瓦片。请先克隆源码，再下载对应版本的 GitHub Release 数据包，解压到仓库根目录后启动本地 HTTP 服务。
 
+当前推荐下载暂停时的预览包 `v0.1.1-preview`。上一版 `v0.1.0-preview` 仍在，不要覆盖已保存的旧包。
+
 ### 1. 克隆仓库
 
 ```bash
@@ -38,23 +48,23 @@ cd pixel-map-beijing
 
 ### 2. 下载并解压 Release 数据包
 
-在仓库根目录下载预览版 `v0.1.0-preview` 的附件（也可换成更新的 Release，但不要覆盖已保存的旧包）：
+在仓库根目录下载预览版 `v0.1.1-preview` 的附件：
 
 ```bash
 # 需要已安装 GitHub CLI
-gh release download v0.1.0-preview --repo NovenBuilds/pixel-map-beijing
+gh release download v0.1.1-preview --repo NovenBuilds/pixel-map-beijing
 ```
 
-也可以在浏览器打开 [Releases 页面](https://github.com/NovenBuilds/pixel-map-beijing/releases) ，下载 `beijing-pilot-dzi-v0.1.0-preview.zip` 和 `SHA256SUMS.txt`。
+也可以在浏览器打开 [Releases 页面](https://github.com/NovenBuilds/pixel-map-beijing/releases) ，下载 `beijing-pilot-dzi-v0.1.1-preview.zip` 和 `SHA256SUMS.txt`。
 
 校验并解压到仓库根目录（会在 `viewer/` 下写入 `beijing-pilot.dzi` 与 `beijing-pilot_files/`）：
 
 ```bash
 sha256sum -c SHA256SUMS.txt
-unzip beijing-pilot-dzi-v0.1.0-preview.zip
+unzip beijing-pilot-dzi-v0.1.1-preview.zip
 ```
 
-版本号、对应 Git 提交、覆盖范围、文件体积和 SHA256 写在该 [Release 说明](https://github.com/NovenBuilds/pixel-map-beijing/releases/tag/v0.1.0-preview) 里，也可对照 `SHA256SUMS.txt`。
+版本号、对应 Git 提交、覆盖范围、文件体积和 SHA256 写在该 [Release 说明](https://github.com/NovenBuilds/pixel-map-beijing/releases/tag/v0.1.1-preview) 里，也可对照 `SHA256SUMS.txt`。
 
 ### 3. 启动观看器
 
@@ -65,6 +75,6 @@ python3 -m http.server 8765
 
 然后在浏览器打开 http://127.0.0.1:8765/ 。不要用 `file://` 直接打开 HTML，浏览器会拦截瓦片请求。
 
-本预览包覆盖当前直播拼接窗：行 R=−2…3、列 C=−2…4（7168×6144 像素），范围从景山到故宫、王府井，并已并入天安门。广场西侧与前门一带仍在草稿中，未进入本包。
+本预览包覆盖暂停时的直播拼接窗：行 R=−2…3、列 C=−2…4（7168×6144 像素，42/42 格），范围从景山到故宫、王府井，并已并入天安门与广场主体。广场西侧与前门一带仍未进入本包。这是能看的试点草稿，还没有达到 isometric.nyc 的完成度。
 
 没有下载瓦片时，可先看 `examples/overview_2560.jpg`。
